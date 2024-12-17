@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+
+# Vite cache and temporary files
+.vite/
+.vitepress/cache/
+.temp/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Coverage outputs (from tests)
+coverage/
+
+# Dependencies lockfiles (optional, if using yarn or pnpm as well)
+yarn.lock
+pnpm-lock.yaml
+
+# Miscellaneous
+*.bak
+*.tmp
